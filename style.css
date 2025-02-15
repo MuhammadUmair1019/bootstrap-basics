@@ -1,0 +1,33 @@
+.screen-size::before {
+  content: "SM";
+}
+
+@media (min-width: 576px) {
+  .screen-size::before {
+    content: "SM";
+  }
+}
+
+@media (min-width: 768px) {
+  .screen-size::before {
+    content: "MD";
+  }
+}
+
+@media (min-width: 992px) {
+  .screen-size::before {
+    content: "LG";
+  }
+}
+
+@media (min-width: 1200px) {
+  .screen-size::before {
+    content: "XL";
+  }
+}
+
+@media (min-width: 1400px) {
+  .screen-size::before {
+    content: "XXL";
+  }
+}
